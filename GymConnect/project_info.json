@@ -1,0 +1,33 @@
+{
+  "file_path": "C:\\Users\\grego\\Documents\\gymapp\\GymConnect\\GymConnect.xcodeproj",
+  "project_name": "GymConnect",
+  "bundle_identifier": "com.blakeharris.gymconnect",
+  "deployment_target": "16.0",
+  "organization_name": "Blake Harris",
+  "created_files": 50,
+  "swift_version": "5.9",
+  "firebase_project": "gymconnect-okc",
+  "launch_city": "Oklahoma City, OK",
+  "features": [
+    "Phone Authentication",
+    "Apple Sign-In",
+    "User Profiles",
+    "Gym Selection",
+    "Real-time Check-ins",
+    "User Discovery",
+    "Direct Messaging",
+    "Spotter Requests",
+    "Report/Block System"
+  ],
+  "gyms_seeded": 50,
+  "cities_covered": [
+    "Oklahoma City",
+    "Norman",
+    "Moore",
+    "Edmond",
+    "Yukon",
+    "Mustang"
+  ],
+  "completion_status": "Week 1 Complete",
+  "next_phase": "Firebase Setup & Testing"
+}
