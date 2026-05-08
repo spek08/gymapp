@@ -1,11 +1,13 @@
 import SwiftUI
-import FirebaseCore
-import FirebaseAuth
-import FirebaseFirestore
+// Uncomment these after adding Firebase package:
+// import FirebaseCore
+// import FirebaseAuth
+// import FirebaseFirestore
 
 @main
 struct GymConnectApp: App {
-    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    // Uncomment after adding Firebase:
+    // @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
         WindowGroup {
@@ -14,6 +16,8 @@ struct GymConnectApp: App {
     }
 }
 
+// Uncomment after adding Firebase:
+/*
 class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
@@ -22,7 +26,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         
         // Configure Firestore settings
         let settings = FirestoreSettings()
-        settings.cacheSettings = PersistentCacheSettings()
         Firestore.firestore().settings = settings
         
         // Register for push notifications
@@ -38,7 +41,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     func application(_ application: UIApplication,
                      didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         // Set FCM token
-        // Messaging.messaging().apnsToken = deviceToken
     }
     
     private func requestNotificationPermission() {
@@ -50,7 +52,6 @@ class AppDelegate: NSObject, UIApplicationDelegate {
     }
     
     private func configureAppearance() {
-        // Configure navigation bar
         let appearance = UINavigationBarAppearance()
         appearance.configureWithOpaqueBackground()
         appearance.backgroundColor = UIColor(Color("Background"))
@@ -70,3 +71,4 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
         completionHandler([.banner, .sound, .badge])
     }
 }
+*/
