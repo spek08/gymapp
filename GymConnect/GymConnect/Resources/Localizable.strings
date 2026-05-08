@@ -1,0 +1,125 @@
+/* 
+  Localizable.strings
+  GymConnect
+
+  English translations for the app.
+*/
+
+// MARK: - General
+"app_name" = "GymConnect";
+"ok" = "OK";
+"cancel" = "Cancel";
+"done" = "Done";
+"save" = "Save";
+"edit" = "Edit";
+"delete" = "Delete";
+"loading" = "Loading...";
+"error" = "Error";
+"success" = "Success";
+"retry" = "Retry";
+
+// MARK: - Auth
+"welcome_title" = "Welcome to GymConnect";
+"welcome_subtitle" = "Find your gym squad in Oklahoma City";
+"phone_number" = "Phone Number";
+"continue" = "Continue";
+"verify_code" = "Verify Code";
+"verification_title" = "Enter Verification Code";
+"resend_code" = "Resend code";
+"resend_code_in" = "Resend code in %d";
+"terms_agreement" = "By continuing, you agree to our Terms of Service and Privacy Policy";
+
+// MARK: - Onboarding
+"create_profile" = "Create Your Profile";
+"tell_about_yourself" = "Tell us a bit about yourself";
+"display_name" = "Display Name";
+"enter_your_name" = "Enter your name";
+"bio_optional" = "Bio (Optional)";
+"your_fitness_goals" = "Your Fitness Goals";
+"select_up_to_5" = "Select up to 5 goals";
+"experience_level" = "Experience Level";
+"what_are_your_goals" = "What are your goals?";
+"skip" = "Skip";
+
+// MARK: - Experience Levels
+"beginner" = "Beginner";
+"intermediate" = "Intermediate";
+"advanced" = "Advanced";
+"elite" = "Elite";
+"beginner_description" = "New to training";
+"intermediate_description" = "1-2 years experience";
+"advanced_description" = "3+ years experience";
+"elite_description" = "Competitive athlete";
+
+// MARK: - Fitness Goals
+"lose_weight" = "Lose Weight";
+"build_muscle" = "Build Muscle";
+"increase_strength" = "Increase Strength";
+"improve_endurance" = "Improve Endurance";
+"flexibility" = "Flexibility";
+"general_fitness" = "General Fitness";
+
+// MARK: - Main Tabs
+"discover" = "Discover";
+"spotter" = "Spotter";
+"messages" = "Messages";
+"profile" = "Profile";
+
+// MARK: - Discover
+"people_here_now" = "%d people here now";
+"at_gym_now" = "At gym now";
+"message" = "Message";
+"spot" = "Spot";
+"no_users_found" = "No users found";
+"be_first_to_join" = "Be the first to join this gym!";
+
+// MARK: - Profile
+"member_since" = "Member since %@";
+"edit_profile" = "Edit Profile";
+"settings" = "Settings";
+"privacy" = "Privacy";
+"notifications" = "Notifications";
+"blocked_users" = "Blocked Users";
+"help_support" = "Help & Support";
+"sign_out" = "Sign Out";
+
+// MARK: - Spotter
+"need_a_spot" = "Need a Spot?";
+"active_requests" = "Active Requests";
+"my_requests" = "My Requests";
+"create_request" = "Create Request";
+"accept_request" = "Accept Request";
+"complete_request" = "Complete Request";
+"cancel_request" = "Cancel Request";
+"expires_in" = "Expires in %@";
+
+// MARK: - Chat
+"no_messages" = "No messages yet";
+"type_message" = "Type a message...";
+"new_message" = "New Message";
+
+// MARK: - Gym Selector
+"select_your_gym" = "Select Your Gym";
+"search_gyms" = "Search gyms...";
+"nearby" = "Nearby";
+"mi_away" = "%.1f mi";
+
+// MARK: - Errors
+"error_generic" = "Something went wrong. Please try again.";
+"error_network" = "Network error. Please check your connection.";
+"error_invalid_phone" = "Please enter a valid phone number.";
+"error_invalid_code" = "Invalid verification code. Please try again.";
+
+// MARK: - Time
+"just_now" = "Just now";
+"minutes_ago" = "%d min ago";
+"hours_ago" = "%d hr ago";
+"yesterday" = "Yesterday";
+
+// MARK: - Privacy Settings
+"profile_visible" = "Profile Visible To";
+"everyone" = "Everyone";
+"gym_only" = "Gym Members Only";
+"friends_only" = "Friends Only";
+"show_online_status" = "Show Online Status";
+"allow_messages" = "Allow Messages From";
